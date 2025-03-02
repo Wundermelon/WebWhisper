@@ -2,6 +2,5 @@
   "name": "WebWhisper",
   "version_number": "0.5.1",
   "website_url": "https://github.com/Wundermelon/WebWhisper",
-  "description": "Allows you to send whispers (private messages) to people in your lobby!",
-   "author": "Wundermelon and Zonalic"
+  "description": "Send whispers (private messages) to people in your lobby!"
 }
