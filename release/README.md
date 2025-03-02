@@ -79,19 +79,3 @@ By Wundermelon & Zonalic.
 ### `/whisperreset` | `/wreset`
 - Resets all whisper settings to their default values.
 
-
-
-
----
-
-
-### Credits:
-Co-author: Zonalic
-
-Thank you [Toes](https://thunderstore.io/c/webfishing/p/toes/) for some great advice! 
-
-If you want to start modding, I found [BlueberryWolf's modding guide](https://github.com/BlueberryWolf/WEBFISHINGModdingGuide) super helpful!
-
-
-### Ran into a bug?
-You can email me at [wndrmeln@gmail.com](mailto:wndrmeln@gmail.com)
