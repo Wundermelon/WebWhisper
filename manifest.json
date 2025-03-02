@@ -1,10 +1,7 @@
 {
-  "Id": "Wundermelon.WebWhisper",
-  "PackPath": "WebWhisper.pck",
-  "Metadata": {
-    "Name": "WebWhisper",
-    "Author": "Wundermelon and Zonalic",
-    "Version": "1.0.0",
-    "Description": "Allows you to whisper to people in your lobby (even if they don't have this mod). Users without this mod can't whisper back.",
-    "Homepage": "addOurGithubHere.com/andAlsoAddAnIcon.png"}
+  "name": "WebWhisper",
+  "version_number": "0.5.1",
+  "website_url": "https://github.com/Wundermelon/WebWhisper",
+  "description": "Allows you to send whispers (private messages) to people in your lobby!",
+   "author": "Wundermelon and Zonalic"
 }
