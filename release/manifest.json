@@ -1,7 +1,7 @@
 {
   "name": "WebWhisper",
-  "version_number": "0.5.1",
+  "version_number": "0.5.2",
   "website_url": "https://github.com/Wundermelon/WebWhisper",
-  "description": "Send whispers (private messages) to people in your lobby!",
+  "description": "Send whispers to people in your lobby, even if they don't have this mod!",
   "dependencies": ["NotNet-GDWeave-2.0.14"]
 }
