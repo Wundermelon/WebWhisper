@@ -723,12 +723,16 @@ func _chat_update():
 
 # helper function for _chat_update()
 func format_received_whisper(whisper: String):
+	whisper = whisper.strip_edges()
 	var i = whisper.find(Settings.SEND_WHISPER_PREFIX) + Settings.SEND_WHISPER_PREFIX.length()
 	var j = whisper.find_last("[/color]") + 8
-	var username = whisper.substr(i,j)
+	var username = whisper.substr(i, j-i)
+	print("username: " + username)
 	var message = whisper.substr(j  + Settings.SEND_WHISPER_INFIX.length())
+	print("message: " + message)
 	whisper = replace_escape(SETTINGS.receive_format, username, null, message)
-	return bbc_colour_text(whisper, SETTINGS.whisper_color)
+	print("whisper: " + whisper)
+	return "\n" + bbc_colour_text(whisper, SETTINGS.whisper_color)
 
 # enables get_last_sender_id() to see which lobby member sent the last packet
 func _message_flush():
